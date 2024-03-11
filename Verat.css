@@ -1,0 +1,84 @@
+/* CSS for navigation buttons */
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+    background-color: #f9f9f9; /* Background color for the buttons */
+    padding: 10px 20px; /* Padding for the buttons */
+    border-radius: 5px; /* Rounded corners for the buttons */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Background color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Default font family */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Header font family */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Calibri', Arial, sans-serif; /* Section font family */
+}
+
+.product {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.product-info {
+    float: left;
+    width: 60%;
+}
+
+.product-info h3 {
+    margin-top: 0;
+}
+
+.product-image {
+    float: right;
+    width: 40%;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Adjust product layout for smaller screens */
+@media screen and (max-width: 600px) {
+    .product {
+        width: calc(50% - 20px); /* Two products per row */
+        margin: 0 10px 20px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #333;
+        margin-right: 20px;
+        background-color: #f9f9f9; /* Background color for the buttons */
+        padding: 10px 20px; /* Padding for the buttons */
+        border-radius: 5px; /* Rounded corners for the buttons */
+        transition: background-color 0.3s ease; /* Smooth transition effect */
+    }
+    
+    }
+
+
+

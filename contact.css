@@ -1,0 +1,8 @@
+/* Adjust product layout for smaller screens */
+@media screen and (max-width: 600px) {
+    .product {
+        width: calc(50% - 20px); /* Two products per row */
+        margin: 0 10px 20px;
+    }
+}
+
